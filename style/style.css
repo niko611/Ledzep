@@ -1,0 +1,25 @@
+body {
+    background-color:black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+.navbar{
+    background-color:rgb(240, 188, 59) !important;
+}
+
+.nav-link:hover:hover{
+    color: rgb(0, 0, 0) !important;
+}
+
+.rounded-start{
+    padding: 20px;
+}
+
+
+
+#foo{
+    top: 21em;
+}
+
