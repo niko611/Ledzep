@@ -28,6 +28,10 @@ body {
 #fotos img{
     width: 100%;
     height: 260px;
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
 }
 
 #fotos .col-lg-3{
@@ -36,6 +40,9 @@ body {
 
 #fotos img:hover{
     border: 03px solid white;
+    -webkit-transform: scale(1.3);
+	transform: scale(1.3);
+    
 }
 
 /* ----------------------- */
@@ -46,5 +53,41 @@ iframe{
 
 h1{
     padding-bottom: 20px;
+    padding: 20px;
+}
+
+
+/* FOTOS DEL INDEX */
+#portada:hover{
+    -webkit-transform: scale(1.3);
+	transform: scale(1.1);
+}
+
+/* CONTACTO BOTON Y IMAGEN */
+
+#boton{
+    margin: 10px;
+    height: 40px;
+    width: 150px;
+    background-image: linear-gradient(rgb(229, 199, 27), rgb(250, 82, 44));
+}
+
+.form-control{
+    background-color: black;
+}
+
+/* .led{
+    position: relative;
+    bottom: 200px;
+} */
+
+/* VIDEO */
+
+#video{
+    padding: 100px;
+    padding-top: 110px;
+}
+
+.videos{
     padding: 20px;
 }
