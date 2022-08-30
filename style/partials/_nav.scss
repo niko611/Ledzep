@@ -1,0 +1,12 @@
+nav{
+    background-color:rgb(240, 188, 59) !important;
+    ul{
+        li{
+            a{
+                &:hover{
+                    color: rgb(0, 0, 0) !important;
+                }
+            }
+        }
+    }
+}
