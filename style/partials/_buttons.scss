@@ -1,0 +1,14 @@
+main{
+    div{
+        button{
+            @extend %botoncontacto;
+        }
+        .mix{
+            color: aqua;
+        }
+    }
+}
+
+.mix{
+    @include botones($color: blue,);
+}

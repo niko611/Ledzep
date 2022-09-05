@@ -1,0 +1,22 @@
+div{
+    h2{
+        padding: 10px;
+        font-family: $letra;
+    }
+    iframe{
+        padding: 10%;
+        padding-top: 110px;
+
+    }
+    h1{
+        font-family: $letra;
+    }
+    h3{
+        font-family: $letra;
+    }
+}
+
+.text-warning{
+    color: map-get($colores, colordeletraindex);
+    background-color: map-get($colores, colordegaleria);
+}

@@ -1,1 +1,11 @@
-@import "./partials/body","./partials/nav","./partials/main","./partials/footer";
+
+@import "./partials/variables";
+@import "./partials/mixin", "./partials/map";
+@import "./partials/extends", "./partials/buttons";
+@import 
+"./partials/body",
+"./partials/nav",
+"./partials/imagenes",
+"./partials/listas",
+"./partials/letra",
+"./partials/footer";

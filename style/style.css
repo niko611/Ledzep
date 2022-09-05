@@ -1,5 +1,23 @@
+main div button {
+  margin: 10px;
+  height: 40px;
+  width: 150px;
+  background-image: linear-gradient(rgb(218, 192, 46), rgb(250, 82, 44));
+}
+
+main div .mix {
+  color: aqua;
+}
+
+.mix {
+  background-color: blue;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
 body {
-  background-color: black;
+  background-color: rgb(7, 6, 6);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -12,8 +30,51 @@ nav ul li a:hover {
   color: rgb(0, 0, 0) !important;
 }
 
-main img {
+main div {
+  padding: 2px;
+}
+main div img {
+  width: 100%;
+  transform: scale(1);
+  transition: 0.3s ease-in-out;
+}
+main div img:hover {
+  border: 0px solid white;
+  transform: scale(1.1);
+}
+main div p {
   padding: 20px;
+}
+
+section div h1 {
+  padding-bottom: 40px;
+  padding: 30px;
+}
+section div iframe {
+  padding: 20px;
+  margin: 20px;
+  height: 500px;
+  width: auto;
+}
+
+div h2 {
+  padding: 10px;
+  font-family: "Courier New", Courier, monospace;
+}
+div iframe {
+  padding: 10%;
+  padding-top: 110px;
+}
+div h1 {
+  font-family: "Courier New", Courier, monospace;
+}
+div h3 {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.text-warning {
+  color: rgb(196, 31, 31);
+  background-color: green;
 }
 
 footer {
