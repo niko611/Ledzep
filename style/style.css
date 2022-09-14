@@ -9,13 +9,6 @@ main div .mix {
   color: aqua;
 }
 
-.mix {
-  background-color: blue;
-  border: none;
-  padding: 10px;
-  border-radius: 5px;
-}
-
 body {
   background-color: rgb(7, 6, 6);
   background-size: cover;
@@ -48,10 +41,10 @@ main div p {
 
 section div h1 {
   padding-bottom: 40px;
-  padding: 30px;
+  padding: 20px;
 }
 section div iframe {
-  padding: 20px;
+  padding: 10px;
   margin: 20px;
   height: 500px;
   width: auto;
@@ -70,11 +63,6 @@ div h1 {
 }
 div h3 {
   font-family: "Courier New", Courier, monospace;
-}
-
-.text-warning {
-  color: rgb(196, 31, 31);
-  background-color: rgb(70, 88, 189);
 }
 
 footer {
